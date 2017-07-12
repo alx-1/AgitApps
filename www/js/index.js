@@ -37,7 +37,7 @@ var app = {
         var selCouleur = 0;
         var mot = "hello mundo";  
         //alert(mot);
-        var form = document.getElementById("maForm");
+        var formule = document.getElementById("maForm");
         // console.log("la couleur du début est : " + selCouleur);
 
     document.getElementById("monPiton").addEventListener("click", function () {
@@ -50,8 +50,11 @@ var app = {
 
         
     document.getElementById("mavaleur").value = mot;
-    alert(mot);   
-    form.submit();
+ alert("mot : "+mot+"\n"+"Couleur : "+selCouleur); 
+        
+        
+    formule.submit();
+        
     }); // fin de la fonction appelée par monPiton
       
         ///////////////////////////////// cp ////////////
@@ -133,4 +136,11 @@ var app = {
 
     //    console.log('Received Event: ' + id);
     } 
+    
+    function soumettre(){
+    
+    alert("on se rends ici");
+}
+
+
 };
