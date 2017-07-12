@@ -39,7 +39,7 @@ var app = {
         //alert(mot);
         var formule = document.getElementById("maForm");
         // console.log("la couleur du début est : " + selCouleur);
-
+soumettre();
     document.getElementById("monPiton").addEventListener("click", function () {
 
     selCouleur =  document.getElementById("maCouleur").value;
