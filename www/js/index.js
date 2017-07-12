@@ -39,7 +39,7 @@ var app = {
         //alert(mot);
         var formule = document.getElementById("maForm");
         // console.log("la couleur du début est : " + selCouleur);
-soumettre();
+    //soumettre();
     document.getElementById("monPiton").addEventListener("click", function () {
 
     selCouleur =  document.getElementById("maCouleur").value;
@@ -47,12 +47,10 @@ soumettre();
 
     console.log("le mot est : " + mot);
     console.log("la couleur est : " + selCouleur);
-
-        
+  
     document.getElementById("mavaleur").value = mot;
- alert("mot : "+mot+"\n"+"Couleur : "+selCouleur); 
-        
-        
+    alert("mot : "+mot+"\n"+"Couleur : "+selCouleur); 
+           
     formule.submit();
         
     }); // fin de la fonction appelée par monPiton
@@ -131,16 +129,16 @@ soumettre();
         var listeningElement = parentElement.querySelector('.listening');
         var receivedElement = parentElement.querySelector('.received');
 
-      //  listeningElement.setAttribute('style', 'display:none;');
-    //    receivedElement.setAttribute('style', 'display:block;');
+       listeningElement.setAttribute('style', 'display:none;');
+       receivedElement.setAttribute('style', 'display:block;');
 
     //    console.log('Received Event: ' + id);
     } 
     
-    function soumettre(){
+    /*function soumettre(){
     
     alert("on se rends ici");
-}
+    }*/
 
 
 };
