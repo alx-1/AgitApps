@@ -49,7 +49,7 @@ var app = {
     console.log("la couleur est : " + selCouleur);
   
     document.getElementById("mavaleur").value = mot;
-    alert("mot : "+mot+"\n"+"Couleur : "+selCouleur); 
+    // alert("mot : "+mot+"\n"+"Couleur : "+selCouleur); 
            
     formule.submit();
         
